@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.software {
+    width: 1215.35px;
+    height: 275px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.title {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Rubik Vinyl", system-ui;
+}
+
+.software-title {
+    color: #f4a460;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0;
+    font-family: "Eb garamond", system-ui;
+}
+
+.software-description {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0;
+    font-family: "EB Garamond", "system-ui";
+}
+
+.content {
+    background: rgb(4, 0, 37);
+    background: -moz-linear-gradient(
+        left,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+    background: -webkit-linear-gradient(
+        left,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+}
+
+.container {
+    background: rgb(4, 0, 37);
+    background: -moz-linear-gradient(
+        left,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+    background: -webkit-linear-gradient(
+        left,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgb(4, 0, 37) 0%,
+        rgb(174, 19, 108) 51%,
+        rgb(1, 210, 254) 100%
+    );
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+   background: rgba(42, 29, 158, 0.76); ;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    float: right;
+    line-height: 50px;
+}
+
+.button:hover {
+    height: 75px;
+    width: 175px;
+    font-size: larger;
+    color: #60f4b6;
+    border: 2px solid #60f4b6;
+float:ri;
+}
+
+.fs {
+    height: 200px;
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.fs:hover {
+    height: 250px;
+    width: 350px;
+    padding: 5px;
+   
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .software-title {
+        font-size: 24px;
+    }
+
+    .software-description {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .software-title {
+        font-size: 20px;
+    }
+
+    .software-description {
+        font-size: 14px;
+    }
+}
+.software:hover  {
+    border: 2px solid #60f4b6;
+    
+    
+}
+
